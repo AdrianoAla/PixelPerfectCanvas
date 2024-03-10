@@ -78,6 +78,8 @@ impl Canvas2D {
         // Flip vertically
         camera.zoom.y = -camera.zoom.y;
 
+        println!("Hello from PixelPerfectCanvas!");
+
         Self { camera }
     }
 
