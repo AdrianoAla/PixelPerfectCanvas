@@ -1,0 +1,23 @@
+[package]
+name = "macroquad-canvas"
+version = "0.4.1"
+authors = ["alexmozaidze <alexman2622@gmail.com>", "nicolas <nicolas.sabbatini.95@gmail.com>", "Adriano Alasia <adrianoalasia2020@gmail.com>"]
+edition = "2021"
+license = "Apache-2.0"
+readme = "README.md"
+description = "Adds canvas functionality to Macroquad."
+repository = ""
+keywords = ["macroquad"]
+categories = ["game-development"]
+exclude = ["examples"]
+
+[dependencies]
+macroquad = "0.4"
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
+
+[[example]]
+name = "mouse"
+path = "examples/mouse.rs"
